@@ -1,7 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
-let g:netrw_dirhist_1='/Users/dlaw/dev/infochimps-homebase/vendor/ironfan-pantry/cookbooks/hadoop_cluster/attributes'
-let g:netrw_dirhist_2='/Users/dlaw/dev/wukong_og/lib/wukong/parser/flatpack'
-let g:netrw_dirhist_3='/Users/dlaw/dev/wukong/examples/munging/weather/ish_parser'
-let g:netrw_dirhist_4='/Users/dlaw/dev/wukong_og/lib/wukong/parser/flatpack'
-let g:netrw_dirhist_5='/Users/dlaw/dev/wukong_og/lib/wukong/parser'
