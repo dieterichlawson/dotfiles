@@ -14,7 +14,6 @@ export PATH="$PATH:/Applications/MATLAB_R2012a.app/bin"
 export PATH="$PATH:/usr/local/share/npm/bin"
 export PATH="/usr/local/heroku/bin:$PATH"
 export PATH="$PATH:/Users/dlaw/dev/storm/bin"
-export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home"
 
 # text processing
 alias grep="grep --color=always -n"
