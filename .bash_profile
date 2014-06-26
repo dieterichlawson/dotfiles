@@ -9,6 +9,9 @@ export PS1='\[\e[34m\]\u\[\e[0m\]$l > \[\e[34m\]\W \[\e[0m\]\$ '
 
 export EDITOR=vim
 
+#python shell history
+export PYTHONSTARTUP=$HOME/.pystartup
+
 export PATH="/usr/local/bin:$PATH:/usr/local/sbin"
 export PATH="$PATH:/Applications/MATLAB_R2012a.app/bin"
 export PATH="$PATH:/usr/local/share/npm/bin"
