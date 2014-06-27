@@ -11,6 +11,7 @@ export EDITOR=vim
 
 #python shell history
 export PYTHONSTARTUP=$HOME/.pystartup
+export PYTHONPATH=$PYTHONPATH:$HOME/dev/scikit-learn
 
 export PATH="/usr/local/bin:$PATH:/usr/local/sbin"
 export PATH="$PATH:/Applications/MATLAB_R2012a.app/bin"
@@ -19,7 +20,7 @@ export PATH="/usr/local/heroku/bin:$PATH"
 export PATH="$PATH:/Users/dlaw/dev/storm/bin"
 
 # text processing
-alias grep="grep --color=always -n"
+alias cgrep="grep --color=always -n"
 alias rgrep="grep -R"
 alias gr="rgrep - . <<<"
 alias to_tsv="sed -i '' 's/,/	/g'"

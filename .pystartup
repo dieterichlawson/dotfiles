@@ -14,7 +14,6 @@ import readline
 import rlcompleter
 
 historyPath = os.path.expanduser("~/.pyhistory")
-print historyPath
 
 def save_history(historyPath=historyPath):
   import readline
@@ -24,5 +23,10 @@ if os.path.exists(historyPath):
   readline.read_history_file(historyPath)
 
 atexit.register(save_history)
-readline.parse_and_bind("bind ^I rl_complete")
+import readline
+import rlcompleter
+if 'libedit' in readline.__doc__:
+  readline.parse_and_bind("bind ^I rl_complete")
+else:
+  readline.parse_and_bind("tab: complete")
 del os, atexit, readline, rlcompleter, save_history, historyPath
